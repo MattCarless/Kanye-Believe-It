@@ -24,10 +24,10 @@ let randomNumber = Math.floor((Math.random() * 10) + 1);
 console.log(randomNumber);
 
 
-// userchoice = (event) => {
-// console.log(event);
-// if (event.target === )
-// };
+userchoice = (event) => {
+console.log(event);
+return true;
+};
 
 async function getFetchData () {
     if (randomNumber <= 5) {
@@ -48,5 +48,5 @@ displayQuoteHeader.innerText = data.quote;
 getFetchData();
 
 
-// trueButton.addEventListener("click", userchoice );
+trueButton.addEventListener("click", userchoice );
 // falseButton.addEventListener("click",)
